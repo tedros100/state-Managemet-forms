@@ -1,0 +1,23 @@
+React life cycle.
+
+componenetDidMount() {
+//lifecycle function when a component loades/updates.
+}
+console.log(component app loaded)
+
+componentDidUpdate(prevProps)  {
+//life cycle function - when coponent props changes
+}
+componentWillUnmount() {
+// when a component unmount/ cleansup.
+}
+
+render() {
+return (
+)
+}
+// in functional coponent it is replaced with useEffect() hook.
+
+useEffect(() => {
+//useEffect it takes argument on the first one and the second variable is optional.
+})
